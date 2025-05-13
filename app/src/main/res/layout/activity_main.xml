@@ -253,7 +253,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="• React / Angular / Spring Boot"
+                        android:text="• React / Angular / Spring Boot / ASP.NET MVC"
                         android:textColor="#263238"
                         android:layout_marginTop="4dp"/>
                 </LinearLayout>
@@ -286,11 +286,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
+            android:layout_marginEnd="8dp"
             android:src="@android:drawable/ic_dialog_email"
-            app:backgroundTint="#3F51B5"
             android:tint="#FFFFFF"
+            app:backgroundTint="#3F51B5"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/back_button_container"
